@@ -1,0 +1,177 @@
+{
+  "uuid": "c64bb4d5c10cc93053f28cc48ad1687b",
+  "path": "Offline/8-bit_LFSR",
+  "name": "8-bit_LFSR",
+  "content": "",
+  "created_at": "2021-08-27 17:28:00",
+  "updated_at": "2021-08-27 19:24:19",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "3cff5cfd2473b51a5557864089e97ae7",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7a2faf02889040879843b86b9aea3213": 1,
+        "5e30ea084f4048bca869893adc7aa17d": 1,
+        "b0842cc13e614bf7b52e8c02a4e5fb87": 2,
+        "add7f53808d540d58aa22b4563180083": 2,
+        "0f8bdb36655f07bff6ec3f4ddab11732": 1,
+        "736d336546772c5794576cbf42cabb8b": 5,
+        "481e759e576d41d5aa505465b1d06561": 14
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          5,
+          "C0805",
+          "C1,C2,C3,C4,C5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL21B104JBCNNNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C62912",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "736d336546772c5794576cbf42cabb8b"
+          }
+        ],
+        [
+          "SC56-21GWA",
+          2,
+          "1 INCH SEVEN SEG DISPLAY",
+          "DSP1,DSP2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "4027a0a6eb994e5395b624165ebf7211",
+            "uuid": "add7f53808d540d58aa22b4563180083"
+          }
+        ],
+        [
+          "255",
+          14,
+          "R0805",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "RC0805FR-07255RL",
+            "BOM_Supplier Part": "C137561",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "481e759e576d41d5aa505465b1d06561"
+          }
+        ],
+        [
+          "ATTINY85-20PU",
+          1,
+          "PDIP-8_L9.3-W6.4-P2.54-LS7.6-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C965497",
+            "BOM_Manufacturer": "MICROCHIP(美国微芯)",
+            "BOM_Manufacturer Part": "ATTINY85-20PU",
+            "puuid": "61a55cacd5b14f109a68b11c09571ea3",
+            "uuid": "7a2faf02889040879843b86b9aea3213"
+          }
+        ],
+        [
+          "74HC595N_C669328",
+          1,
+          "DIP-16_L19.8-W6.5-P2.54-LS7.6-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C669328",
+            "BOM_Manufacturer": "HTC Korea TAEJIN Tech",
+            "BOM_Manufacturer Part": "74HC595N",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "1f423f14388b4b17afc87646625a53f6",
+            "uuid": "5e30ea084f4048bca869893adc7aa17d"
+          }
+        ],
+        [
+          "ATtiny24",
+          2,
+          "DIP-14",
+          "U3,U4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "5beff9ba870f4c4b8cea2e11602f096b",
+            "uuid": "b0842cc13e614bf7b52e8c02a4e5fb87"
+          }
+        ],
+        [
+          "74HC86D,653",
+          1,
+          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Nexperia",
+            "BOM_Manufacturer Part": "74HC86D,653",
+            "BOM_Supplier Part": "C5955",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0f2364c02f094100b1b3205c9d829099",
+            "uuid": "0f8bdb36655f07bff6ec3f4ddab11732"
+          }
+        ]
+      ],
+      "updateTime": 1630108299,
+      "createTime": 1630103365,
+      "histories": [],
+      "created_at": "2021-08-27 17:29:25",
+      "updated_at": "2021-08-27 18:51:39"
+    },
+    {
+      "uuid": "828abfcb0dc086ba8d0500055c2b02cf",
+      "puuid": "c64bb4d5c10cc93053f28cc48ad1687b",
+      "title": "PCB_8-bit_LFSR",
+      "filename": "PCB_8-bit_LFSR.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2ee8eb13a0124a108e622ce40c0c25a8": 5,
+        "4027a0a6eb994e5395b624165ebf7211": 2,
+        "b60f399a7a7e41848b2be1eb49c79141": 14,
+        "61a55cacd5b14f109a68b11c09571ea3": 1,
+        "1f423f14388b4b17afc87646625a53f6": 1,
+        "5beff9ba870f4c4b8cea2e11602f096b": 2,
+        "0f2364c02f094100b1b3205c9d829099": 1
+      },
+      "BOM": [],
+      "updateTime": 1630110259,
+      "createTime": 1630109083,
+      "histories": [],
+      "created_at": "2021-08-27 19:04:43",
+      "updated_at": "2021-08-27 19:24:19"
+    }
+  ],
+  "sort": [
+    "sheet_6717440828935144",
+    "3cff5cfd2473b51a5557864089e97ae7"
+  ],
+  "title": "8-bit_LFSR",
+  "foldername": "8-bit_LFSR",
+  "schfilename": "8-bit_LFSR.json",
+  "schfilemtime": 1630108299000
+}
