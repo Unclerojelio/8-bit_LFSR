@@ -4,7 +4,7 @@
   "name": "8-bit_LFSR",
   "content": "",
   "created_at": "2021-08-27 17:28:00",
-  "updated_at": "2021-08-27 19:24:19",
+  "updated_at": "2021-09-01 18:03:25",
   "stick": "",
   "documents": [
     {
@@ -19,9 +19,9 @@
         "5e30ea084f4048bca869893adc7aa17d": 1,
         "b0842cc13e614bf7b52e8c02a4e5fb87": 2,
         "add7f53808d540d58aa22b4563180083": 2,
-        "0f8bdb36655f07bff6ec3f4ddab11732": 1,
         "736d336546772c5794576cbf42cabb8b": 5,
-        "481e759e576d41d5aa505465b1d06561": 14
+        "481e759e576d41d5aa505465b1d06561": 14,
+        "8ba9cf363cc241018f86a26775889677": 1
       },
       "BOM": [
         [
@@ -119,26 +119,22 @@
           }
         ],
         [
-          "74HC86D,653",
+          "7486",
           1,
-          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "DIP14",
           "U5",
           {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "Nexperia",
-            "BOM_Manufacturer Part": "74HC86D,653",
-            "BOM_Supplier Part": "C5955",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "0f2364c02f094100b1b3205c9d829099",
-            "uuid": "0f8bdb36655f07bff6ec3f4ddab11732"
+            "BOM_Manufacturer Part": "",
+            "puuid": "d3ea42d063a54d01a2b3ec87c69cd22a",
+            "uuid": "8ba9cf363cc241018f86a26775889677"
           }
         ]
       ],
-      "updateTime": 1630108299,
+      "updateTime": 1630537100,
       "createTime": 1630103365,
       "histories": [],
       "created_at": "2021-08-27 17:29:25",
-      "updated_at": "2021-08-27 18:51:39"
+      "updated_at": "2021-09-01 17:58:20"
     },
     {
       "uuid": "828abfcb0dc086ba8d0500055c2b02cf",
@@ -150,20 +146,20 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "d3ea42d063a54d01a2b3ec87c69cd22a": 1,
         "2ee8eb13a0124a108e622ce40c0c25a8": 5,
         "4027a0a6eb994e5395b624165ebf7211": 2,
         "b60f399a7a7e41848b2be1eb49c79141": 14,
         "61a55cacd5b14f109a68b11c09571ea3": 1,
         "1f423f14388b4b17afc87646625a53f6": 1,
-        "5beff9ba870f4c4b8cea2e11602f096b": 2,
-        "0f2364c02f094100b1b3205c9d829099": 1
+        "5beff9ba870f4c4b8cea2e11602f096b": 2
       },
       "BOM": [],
-      "updateTime": 1630110259,
+      "updateTime": 1630537405,
       "createTime": 1630109083,
       "histories": [],
       "created_at": "2021-08-27 19:04:43",
-      "updated_at": "2021-08-27 19:24:19"
+      "updated_at": "2021-09-01 18:03:25"
     }
   ],
   "sort": [
@@ -173,5 +169,5 @@
   "title": "8-bit_LFSR",
   "foldername": "8-bit_LFSR",
   "schfilename": "8-bit_LFSR.json",
-  "schfilemtime": 1630108299000
+  "schfilemtime": 1630537100000
 }
